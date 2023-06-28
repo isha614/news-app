@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     console.log("re-render");
-    let unsub = alanBtn({
+    alanBtn({
       key: alanKey,
       onCommand: ({ command, articles, number }) => {
         if (command === "newsHeadlines") {
@@ -38,9 +38,6 @@ function App() {
         }
       },
     });
-    return function () {
-      unsub.remove();
-    };
   }, []);
   return (
     <div className="App">

@@ -2,8 +2,9 @@
   "name": "voice-search",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
-    "@alan-ai/alan-sdk-web": "^1.8.43",
+    "@alan-ai/alan-sdk-web": "^1.8.46",
     "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
